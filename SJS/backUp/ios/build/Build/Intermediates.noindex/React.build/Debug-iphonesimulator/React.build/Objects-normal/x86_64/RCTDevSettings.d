@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/hank/Workspace/SJS/testRN/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/hank/Workspace/SJS/testRN/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/hank/Workspace/SJS/testRN/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
