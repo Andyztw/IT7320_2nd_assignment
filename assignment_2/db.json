@@ -1,0 +1,77 @@
+{
+    "HC2":[
+      {"id": 0, 
+        "title": "HC2 street 1",
+         "description": "HC2 first street ",  
+         "zone": "HC2", 
+         "spots": [
+           { "id": 1, "empty": false, "time_left": 15 }, 
+           { "id": 2, "empty": true, "time_left": 0 }
+          ]
+      },
+      {"id": 1, 
+        "title": "HC2 street 2 ",
+         "description": "HC2 second street ",  
+         "zone": "HC2", 
+         "spots": [
+           { "id": 3, "empty": false, "time_left": 15 }, 
+           { "id": 4, "empty": true, "time_left": 0 }
+          ]
+      }
+    ],
+    "HC3":[
+      {"id": 2, 
+        "title": "HC3 street 1 ",
+         "description": "HC3 first street ",  
+         "zone": "HC3", 
+         "spots": [
+           { "id": 1, "empty": false, "time_left": 13 }, 
+           { "id": 2, "empty": true, "time_left": 0 }
+          ]
+      },
+      {"id": 1, 
+        "title": "HC2 street 2 ",
+         "description": "HC2 second street ",  
+         "zone": "HC2", 
+         "spots": [
+           { "id": 3, "empty": false, "time_left": 5 }, 
+           { "id": 4, "empty": true, "time_left": 14 }
+          ]
+      }
+    ],
+    "HC4":[
+      {"id": 4, 
+        "title": "HC4 street 1",
+         "description": "HC4 first street",  
+         "zone": "HC4", 
+         "spots": [
+           { "id": 1, "empty": false, "time_left": 115 }, 
+           { "id": 2, "empty": true, "time_left": 15 }
+          ]
+      },
+      {"id": 5, 
+        "title": "HC4 street 2 ",
+         "description": "HC4 second street ",  
+         "zone": "HC4", 
+         "spots": [
+           { "id": 3, "empty": false, "time_left": 150 }, 
+           { "id": 4, "empty": true, "time_left": 0 }
+          ]
+      }
+    ],
+    "River_Bank_1":[
+      {"id": 6, 
+        "title": "River Bank 1", 
+        "description": "River Bank Parking Lot",
+        "zone": "RIVERBANK",
+        "spots":[
+          {"id":13, "empty": true, "time_left": 0},
+          {"id":14, "empty": true, "time_left": 0},
+          {"id":15, "empty": false, "time_left": 1440}
+        ]
+      }
+    ]
+
+
+}
+
