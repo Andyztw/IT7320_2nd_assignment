@@ -1,4 +1,7 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from "react"
+import axios from 'axios'
+import { Grid, Paper, Typography } from "@material-ui/core"
+
 import {
   Grid, 
   Paper, 
@@ -13,6 +16,16 @@ import {
   TableBody,
   Toolbar
 } from "@material-ui/core";
+
+const API = 'http://localhost:3000/'
+const HC2 = axios.get(`http://localhost:3000/HC2`)
+const HC3 = axios.get(`http://localhost:3000/HC3`)
+const HC4 = axios.get(`http://localhost:3000/HC4`)
+const RiverBank = axios.get(`http://localhost:3000/RIVER_BANK`)
+
+console.log(HC2)
+console.log(HC3)
+console.log(HC4)
 
 const styles = {
   Paper: {
@@ -30,6 +43,9 @@ const styles = {
   }
 };
 
+// const request = axios.get(`${HC2}/0/spots`)
+
+=======
 /** This will loop through all the objects in the spots array in each of the streets
  * recived as an argument 
  * and increment the count variable if the empty attribute is true,
@@ -50,8 +66,8 @@ function findFree(obj) {
 function findTotalFree(obj) {
   var freeSpot = obj.title;
   var count = findFree(obj);
-  freeSpot += "----------------Free Spot: ";
-  freeSpot += count;
+  // freeSpot += "----------------Free Spot: ";
+  // freeSpot += count;
   return freeSpot;
 }
 
