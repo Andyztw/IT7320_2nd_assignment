@@ -1,11 +1,14 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from "react"
 import axios from 'axios'
-import { Grid, Paper, Typography } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@material-ui/core"
+
 import {
+  Grid, 
+  Paper, 
+  Typography,
   List,
   ListItem,
   ListItemText,
-  ListItemSecondaryAction,
   Table,
   TableHead,
   TableRow,
@@ -13,7 +16,6 @@ import {
   TableBody,
   Toolbar
 } from "@material-ui/core";
-import FilterBar from "../Layout/FilterBar";
 
 const API = 'http://localhost:3000/'
 const HC2 = axios.get(`http://localhost:3000/HC2`)
@@ -43,6 +45,12 @@ const styles = {
 
 // const request = axios.get(`${HC2}/0/spots`)
 
+=======
+/** This will loop through all the objects in the spots array in each of the streets
+ * recived as an argument 
+ * and increment the count variable if the empty attribute is true,
+ * return total count at the end of spots array as a number
+ */
 function findFree(obj) {
   var count = 0;
   obj.spots.map(thisObj => {
@@ -50,6 +58,11 @@ function findFree(obj) {
   });
   return count;
 }
+
+/** This return the string with street argument's title
+ * and call findFree to get the total free spots in that street
+ * return the string in format "street.title"-----Free Spots : count
+ */
 function findTotalFree(obj) {
   var freeSpot = obj.title;
   var count = findFree(obj);
@@ -193,13 +206,15 @@ export default ({ parkingSpots, zones, onSelect, street }) => (
             </TableBody>
           </Table>
         ) : (
-          <Toolbar>
-            <Typography variant="display1">
-              Please click on a street name to the left
+            <Toolbar>
+              <Typography variant="display1">
+                Please click on a street name to the left
             </Typography>
-          </Toolbar>
-        )}
+            </Toolbar>
+          )}
       </Paper>
     </Grid>
   </Grid>
 );
+
+
