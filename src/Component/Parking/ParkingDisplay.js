@@ -76,7 +76,9 @@ class ParkingDisplay extends Component{
       this.loadData();
   }
 
-
+  /** Generates the Fitler component in form of a selector
+    enables user to filter street list by zones
+    */
   createFilterMenu(){
     const { classes } = this.props;
     return (
@@ -107,18 +109,29 @@ class ParkingDisplay extends Component{
    );
   }
 
+  /** When user select an item in the filterMenu component, setState to rerender
+    the street list to the required view
+    */
+
   handleChange = event => {
     this.setState({ [event.target.name]: event.target.value });
   };
 
+  /**handle the closing of the filterMenu component
+  */
   handleClose = () => {
     this.setState({ open: false });
   };
 
+  /**handle the opening of the filterMenu component
+  */
   handleOpen = () => {
     this.setState({ open: true });
   };
 
+  /** This function use the fetch APi to retreive data from json-server
+    and set state to each return zone array containing streets objects
+  */
   loadData(){
 
             fetch("http://localhost:3000/HC2").then(response => {
@@ -187,10 +200,16 @@ class ParkingDisplay extends Component{
     return freeSpot;
   }
 
+  /**handles the process to take when user click on a street list ListItem
+    will change state to rerender the parking spot panel
+    */
   onSelect(obj){
     this.setState({currentStreet: obj});
   }
 
+  /*Create the street list component panel using for zone arrays
+    provided in the zone argument
+    */
   createByZoneListItem( zone, zoneName ){
     return(<Fragment key={zoneName}>
       <Typography
@@ -215,6 +234,9 @@ class ParkingDisplay extends Component{
   );
   }
 
+  /**Create the parkingspots table view panel when user click on the street
+  list item, will read the currentStreet state item to render the table
+  */
   createByStreetSpotTable(){
 
     return(
@@ -255,11 +277,14 @@ class ParkingDisplay extends Component{
 
   }
 
+  /** the function where the app component are created.
+  */
   render(){
 
     const {currentStreet, filterZone} = this.state;
     return(
     <Grid container>
+
       <Grid item xs={2}>
         <Paper style={style.PaperMenu}>
         <Typography variant="title">
@@ -299,7 +324,6 @@ class ParkingDisplay extends Component{
           ) : null}
         </Paper>
       </Grid>
-
       <Grid item sm>
         <Paper style={style.Paper}>
         {currentStreet? (
