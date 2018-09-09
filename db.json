@@ -1,77 +1,441 @@
 {
-    "HC2":[
-      {"id": 0, 
-        "title": "HC2 street 1",
-         "description": "HC2 first street ",  
-         "zone": "HC2", 
-         "spots": [
-           { "id": 1, "empty": false, "time_left": 15 }, 
-           { "id": 2, "empty": true, "time_left": 0 }
-          ]
-      },
-      {"id": 1, 
-        "title": "HC2 street 2 ",
-         "description": "HC2 second street ",  
-         "zone": "HC2", 
-         "spots": [
-           { "id": 3, "empty": false, "time_left": 15 }, 
-           { "id": 4, "empty": true, "time_left": 0 }
-          ]
-      }
-    ],
-    "HC3":[
-      {"id": 2, 
-        "title": "HC3 street 1 ",
-         "description": "HC3 first street ",  
-         "zone": "HC3", 
-         "spots": [
-           { "id": 1, "empty": false, "time_left": 13 }, 
-           { "id": 2, "empty": true, "time_left": 0 }
-          ]
-      },
-      {"id": 1, 
-        "title": "HC2 street 2 ",
-         "description": "HC2 second street ",  
-         "zone": "HC2", 
-         "spots": [
-           { "id": 3, "empty": false, "time_left": 5 }, 
-           { "id": 4, "empty": true, "time_left": 14 }
-          ]
-      }
-    ],
-    "HC4":[
-      {"id": 4, 
-        "title": "HC4 street 1",
-         "description": "HC4 first street",  
-         "zone": "HC4", 
-         "spots": [
-           { "id": 1, "empty": false, "time_left": 115 }, 
-           { "id": 2, "empty": true, "time_left": 15 }
-          ]
-      },
-      {"id": 5, 
-        "title": "HC4 street 2 ",
-         "description": "HC4 second street ",  
-         "zone": "HC4", 
-         "spots": [
-           { "id": 3, "empty": false, "time_left": 150 }, 
-           { "id": 4, "empty": true, "time_left": 0 }
-          ]
-      }
-    ],
-    "River_Bank_1":[
-      {"id": 6, 
-        "title": "River Bank 1", 
-        "description": "River Bank Parking Lot",
-        "zone": "RIVERBANK",
-        "spots":[
-          {"id":13, "empty": true, "time_left": 0},
-          {"id":14, "empty": true, "time_left": 0},
-          {"id":15, "empty": false, "time_left": 1440}
-        ]
-      }
-    ]
-
-
+"HC2" : [
+{
+"id": 1,
+"title": "Stevens Grove",
+"description": "Stevens Grove: Parallel parks ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 2,
+"title": "Knights Road",
+"description": "Stevens Grove: Bunny Street to Laings Rd ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 3,
+"title": "Queens Drive",
+"description": "Queens drive: Laings Rd to Fraser Rd ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": true, "time_left": 0 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 4,
+"title": "Fraser Street",
+"description": "Fraser Street: ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 5,
+"title": "High Street",
+"description": "High Street: Fraser St to Laings Rd ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 5,
+"title": "High Street",
+"description": "High Street: Laings St to Waterloo Rd ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 6,
+"title": "Ward Street",
+"description": "Ward Street:",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 7,
+"title": "Market Grove",
+"description": "Market Grove: North side ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 8,
+"title": "Knight Road",
+"description": "Knight Road: South side ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 9,
+"title": "Myrtle Street",
+"description": "Myrtle Street: east side angle parking ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 10,
+"title": "Andrew Avenue",
+"description": "Andrew Avenue: ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 11,
+"title": "Daly Street",
+"description": "Daly Street: Margaret st to Andrews Ave",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 12,
+"title": "Dudley Street",
+"description": "Dudley Street: ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 13,
+"title": "Rutherford Street",
+"description": "Rutherford St: South end ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 14,
+"title": "High Street",
+"description": "High Street: waterloo Rd to Downer cres ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 15,
+"title": "Cornwall Street",
+"description": "Cornwall Street: Pretoria st to Kings Cres ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 16,
+"title": "Cornwall Street",
+"description": "Cornwall Street: West side ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 17,
+"title": "Pretoria Street",
+"description": "Pretoria Street: West End ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 18,
+"title": "Raroa Road",
+"description": "Raroa Road: east of Cornwall St ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 19,
+"title": "Kings Crescent",
+"description": "Kings Crescent: Cornwall St to Queens dr",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 20,
+"title": "Osborne Place",
+"description": "Osborne Place: ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 21,
+"title": "Queens Drive",
+"description": "Queens Drive: Kings cres to Waterloo rd ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 22,
+"title": "Queens Drive",
+"description": "Queens Drive: Laings rd to Waterloo rd ",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 23,
+"title": "Waterloo Road",
+"description": "Waterloo Road: Bloomfield ter to Queens dr",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 24,
+"title": "Waterloo Road",
+"description": "Waterloo Road: High st to Queens dr",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 25,
+"title": "Bloomfield Terrace",
+"description": "Bloomfield Terrace: Kings Cres to Knights rd",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 26,
+"title": "The Pavilion",
+"description": "The Pavilion: Laings Rd",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 27,
+"title": "Laings Road",
+"description": "Laings Road: Myrtle St to Queens dr",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 28,
+"title": "Laings Road",
+"description": "Laings Road: High St to Queens dr",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 29,
+"title": "Bunny Street",
+"description": "Bunny Street:",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
+},
+{
+"id": 30,
+"title": "Margaret Street",
+"description": "Margaret Street",
+"zone": "HC2",
+"spots": [
+{ "id": 1, "empty": false, "time_left": 15 },
+{ "id": 2, "empty": false, "time_left": 10 }
+]
 }
-
+],
+"HC3": [
+{
+"id": 31,
+"title": "Fountain car park ",
+"description": "Fountain Car Park: Laings Rd",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 32,
+"title": "Myrtle Street",
+"description": "Myrtle Street: Laings Rd to Knights Rd",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 33,
+"title": "Stevens Grove",
+"description": "Stevens Grove: Angle parking",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 34,
+"title": "Rutherford Street",
+"description": "Rutherford Street: South",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 35,
+"title": "Raroa Street",
+"description": "Raroa Street: High St to Cornwall st",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 36,
+"title": "Cornwall Street",
+"description": "Cornwall Street: east side",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 37,
+"title": "Cornwall Street ",
+"description": "Cornwall Street: Waterloo rd to Knights rdt",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 38,
+"title": "Knights Road",
+"description": "Knights Road: Cornwall st to Bloomfield Ter",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 39,
+"title": "Knights Road",
+"description": "Knights Road: Myrtle st to Bloomfield Ter",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+},
+{
+"id": 40,
+"title": "Market Grove",
+"description": "Market Grove: south side",
+"zone": "HC3",
+"spots": [
+{ "id": 5, "empty": false, "time_left": 13 },
+{ "id": 6, "empty": true, "time_left": 0 }
+]
+}
+],
+"HC4": [
+{
+"id": 41,
+"title": "Myrtle Street South",
+"description": "Myrtle Street South: Huia st to Laings Rd",
+"zone": "HC4",
+"spots": [
+{ "id": 9, "empty": false, "time_left": 115 },
+{ "id": 10, "empty": true, "time_left": 15 }
+]
+}
+],
+"RIVERBANK":[
+{
+"id": 42,
+"title": "River Bank Parking",
+"description": "River Bank parking lot",
+"zone": "RIVERBANK",
+"spots": [
+{ "id": 13, "empty": true, "time_left": 0 },
+{ "id": 14, "empty": true, "time_left": 0 },
+{ "id": 15, "empty": false, "time_left": 1440 }
+]
+}
+]
+}

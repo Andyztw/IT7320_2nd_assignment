@@ -1,10 +1,8 @@
 import React, { Fragment } from "react"
 import axios from 'axios'
-import { Grid, Paper, Typography } from "@material-ui/core"
-
 import {
-  Grid, 
-  Paper, 
+  Grid,
+  Paper,
   Typography,
   List,
   ListItem,
@@ -23,16 +21,12 @@ const HC3 = axios.get(`http://localhost:3000/HC3`)
 const HC4 = axios.get(`http://localhost:3000/HC4`)
 const RiverBank = axios.get(`http://localhost:3000/RIVER_BANK`)
 
-console.log(HC2)
-console.log(HC3)
-console.log(HC4)
-
 const styles = {
   Paper: {
     padding: 20,
     marginTop: 10,
     marginBottom: 10,
-    height: 500,
+    height: 520,
     overflowY: "auto"
   },
   FreeRow: {
@@ -43,11 +37,14 @@ const styles = {
   }
 };
 
+console.log(HC2)
+console.log(HC3)
+console.log(HC4)
+
 // const request = axios.get(`${HC2}/0/spots`)
 
-=======
-/** This will loop through all the objects in the spots array in each of the streets
- * recived as an argument 
+/* This will loop through all the objects in the spots array in each of the streets
+ * recived as an argument
  * and increment the count variable if the empty attribute is true,
  * return total count at the end of spots array as a number
  */
@@ -216,5 +213,3 @@ export default ({ parkingSpots, zones, onSelect, street }) => (
     </Grid>
   </Grid>
 );
-
-
