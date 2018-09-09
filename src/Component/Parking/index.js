@@ -37,6 +37,7 @@ const styles = {
   }
 };
 
+<<<<<<< HEAD
 console.log(HC2)
 console.log(HC3)
 console.log(HC4)
@@ -48,6 +49,10 @@ console.log(HC4)
  * and increment the count variable if the empty attribute is true,
  * return total count at the end of spots array as a number
  */
+=======
+// const request = axios.get(`${HC2}/0/spots`
+
+>>>>>>> 629106e56f1cc4ad7115a9db103521ccbc42fe63
 function findFree(obj) {
   var count = 0;
   obj.spots.map(thisObj => {
@@ -56,10 +61,6 @@ function findFree(obj) {
   return count;
 }
 
-/** This return the string with street argument's title
- * and call findFree to get the total free spots in that street
- * return the string in format "street.title"-----Free Spots : count
- */
 function findTotalFree(obj) {
   var freeSpot = obj.title;
   var count = findFree(obj);
